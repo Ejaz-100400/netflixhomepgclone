@@ -1,0 +1,236 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    z-index:4;
+}
+.lang-sign-in{
+    gap:40px;
+}
+.netflix{
+    width:250px;
+}
+select{
+    background-color: transparent;
+}
+option{
+    background-color: silver;
+}
+.sign-in,.sign-in:hover{
+    background-color: #E50914;
+    color:white;
+}
+.main-home-pg{
+    min-height:100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.884),rgba(8, 8, 8, 0.559),rgba(0, 0, 0, 0.82)),url('/img/homepg.png');
+    background-size: cover;
+    background-position: center;
+    place-items:center;
+}
+
+.main--content h1{
+    font-size:55px;
+    flex-wrap: wrap;
+}
+.main--content span{
+    font-size: 29px;
+}
+.form-group{
+    flex-wrap: wrap;
+}
+.form-control,.getstarted{
+    border-radius:0px;
+    line-height:25px;   
+}
+.form-floating{
+    width: 50%;
+}
+.getstarted{ 
+    background-color: #E50914;
+    color:white;
+    border:none;
+    padding:17px;
+    width:25%;
+} 
+.getstarted:hover{
+    background-color: #E50914;
+    color:white;
+}
+.getstarted:active{
+    background-color: #E50914; 
+}
+.bor{
+    height:5px;
+    padding:5px;
+    background-color: #222222;
+}
+@media(max-width:567px){
+    .netflix{
+        width:135px;
+    }
+    .main-home-pg{
+        min-height:80vh;
+    }
+    .main--content{
+        top:8%;
+    }
+    .main--content h1{
+        font-size:30px;
+    }
+    .main--content span{
+        font-size:20px;
+    }
+    .form-floating{
+        width: 90%;
+    }
+    .getstarted{
+        margin-top:25px;
+        width:30%;
+        padding:10px 15px;
+    }
+}
+.video-container{
+    min-height:50vh;
+    background-color: black;
+    place-items: center;
+}
+.content-title{
+    font-size:50px;
+}
+.video-container-content{
+    width:50%;
+}
+.video-container-content:nth-child(2){
+    width:40%;
+}
+.video-sec{
+    flex-wrap: wrap;
+    padding:15px;
+}
+.content-par{
+    font-size:26px;
+}
+.tvimg>img{
+    width:450px;
+}
+video{
+    height:100%;
+    width:90%;
+    background-repeat: no-repeat;
+    margin-left:55px;
+}
+#video2{
+    width:64%;
+    height:70%;
+    background-repeat: no-repeat;
+    margin-left:75px;
+}
+.img-box{
+    width:300px;
+    padding:10px;
+    border:1px solid silver;
+    background-color: black;
+    z-index:4;
+    border-radius: 8px;
+    bottom:100px;
+    left:80px;
+    gap:25px;
+
+}
+.frequent-ques{
+    min-height:80vh;
+    background-color: black;
+   
+}
+.accordion{
+    display:flex;
+    flex-direction: column;
+    padding:20px 180px;
+    font-size:25px;
+}
+.accrordion-item{
+    margin-top: 10px;
+}
+.accordion-button,.accordion-collapse{
+    background-color: #222222;
+    color:white;
+    width:100%;
+    font-size:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accordion-button{
+    padding:30px 20px;
+}
+.accordion-button::after {
+    content:'\2b';
+    color:white;
+    font-size:40px;
+    font-family:bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accordion-button:not(.collapsed){
+    background-color: #222222;
+}
+.accordion-button:not(.collapsed)::after{
+    color:transparent
+}
+@media(max-width:567px){
+    .video-container{
+        min-height:40vh;
+    }
+    .content-title{
+        font-size:27px;
+    }
+    .content-par{
+        font-size: 19px;
+    }
+    .tvimg{
+        width:40%;
+    }
+    .tvimg>img{
+        width:389px;
+    }
+    video{
+        margin-left:45px;
+    }
+    #video-sec-even{
+        flex-direction:column-reverse;
+    }
+    .img-box{
+        left:30px;
+        bottom:84px;
+    }
+    .tvimg>img:nth-child(2){
+        width:100px;
+    }
+    #video2{
+        width:60%;
+        height:70%;
+        background-repeat: no-repeat;
+        margin-left:75px;
+    }
+    .accordion-button{
+        font-size:18px;
+        padding:20px;
+    }
+    .accordion-collapse{
+        font-size: 16px;
+        padding:3px 10px;
+    }
+}
+@media(max-width:1197px){
+    .video-container-content:nth-child(n){
+        width:100%;
+        text-align: center;
+    }
+    .accordion{
+        padding:20px 0px;
+    }
+    
+}
