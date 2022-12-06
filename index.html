@@ -16,39 +16,39 @@
 </head>
 <body>
   <!-- HEADER -->
-    <header class="d-flex position-absolute justify-content-between align-items-center container-fluid">
+    <header class="d-flex position-absolute justify-content-between align-items-center container-fluid pl-2 pr-2">
         <div class="netflix-logo">
             <a href="./index.html">
             <img src="./img/netflixlogo.png" class="netflix">
             </a>
         </div>
         <div class="lang-sign-in d-flex position-relative align-items-center">
-            <select name="lang" class="p-2 text-light" id="language-select">
-                <option name="English">English</option>
+            <select name="lang" class="p-2  text-light" id="language-select">
+                <option name="English">English<i class="bi bi-globe"></i></option>
                 <option name="English">Hindi</option>
             </select>
             <input type="button" value="Sign In" class="btn sign-in">
         </div>
     </header>
     <!-- MAIN HOME PG -->
-    <main class="main-home-pg d-grid">
+    <main class="main-home-pg d-grid p-5">
         <div class='position-relative main--content text-center'>
         <div class="text-light">
             <h1>Unlimited movies, TV shows and more.</h1>
             <span>Watch anywhere. Cancel anytime.</span><br><br>
             <span>Ready to watch? Enter your email to create or restart your membership.</span>
         </div>
-        <div class="form-group d-flex align-items-center justify-content-center mt-5">
+        <div class="form-group d-flex align-items-center justify-content-center mt-3">
             <div class="form-floating">
                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                 <label for="floatingInput">Email address</label>
             </div>
-            <button type="submit" class="btn getstarted">Ge Started</button>
+            <button type="submit" class="btn getstarted">Ge Started <i class="fa-solid fa-chevron-right fa-1x"></i></button>
         </div>
     </div>
     </main>
     <div class="bor"></div>
-    <section class="video-container pt-5 d-grid">
+    <section class="video-container pt-5 pl-4 pr-4 d-grid">
         <!-- VIDEO SEC-1 -->
         <div class="container  video-sec d-flex position-relative text-light justify-content-around align-items-center">
             <article class="video-container-content">
@@ -194,16 +194,73 @@
               </div>
           </div>
           <div class="form-group d-flex align-items-center justify-content-center  pb-5">
-            <span class="text-center p-3 w-75 text-light freq-desc">Ready to watch? Enter your email to create or restart your membership.</span>
+            <span class="text-center p-3 text-light freq-desc">Ready to watch? Enter your email to create or restart your membership.</span>
             <div class="form-floating">
                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                 <label for="floatingInput">Email address</label>
             </div>
-            <button type="submit" class="btn getstarted">Ge Started</button>
+            <button type="submit" class="btn getstarted">Ge Started <i class="fa-solid fa-chevron-right"></i></button>
           </div>
     </section>
     <div class="bor"></div>
-    <footer class="footer-section">
+    <footer class="footer-section p-4">
+      <div class="footer container position-relative d-grid">
+        <span>Questions? Call 000-800-919-1694</span>
+        <div class="footer-sec-part desk">
+          <ul class="list-unstyled pt-4">
+            <li class="p-1">FAQ</li>
+            <li class="p-1">Investor Relations</li>
+            <li class="p-1">Privacy</li>
+            <li class="p-1">Speed Test</li>
+          </ul>
+          <ul class="list-unstyled pt-4">
+            <li class="p-1">Help Centre</li>
+            <li class="p-1">Jobs</li>
+            <li class="p-1">Cookie Preferences</li>
+            <li class="p-1">Legal Notices</li>
+          </ul>
+          <ul class="list-unstyled pt-4">
+            <li class="p-1">Account</li>
+            <li class="p-1">Ways to watch</li>
+            <li class="p-1">Corporate Information</li>
+            <li class="p-1">Only Netflix</li>
+          </ul>
+          <ul class="list-unstyled pt-4">
+            <li class="p-1">Ways to watch</li>
+            <li class="p-1">Corporate Information</li>
+            <li class="p-1">Only Netflix</li>
+          </ul>
+        </div>
+        <!-- mobile part -->
+        <div class="footer-sec-part mob">
+          <ul class="list-unstyled pt-4">
+            <li class="p-1">FAQ</li>
+            <li class="p-1">Account</li>
+            <li class="p-1">Investor Relations</li>
+            <li class="p-1">Ways to Watch</li>
+            <li class="p-1">Privacy</li>
+            <li class="p-1">Corporate Information</li>
+            <li class="p-1">Speed Test</li>
+            <li class="p-1">Only on Netflix</li>
+          </ul>
+          <ul class="list-unstyled pb-4">
+            <li class="p-1">Help Centre</li>
+            <li class="p-1">Media Centre</li>
+            <li class="p-1">Jobs</li>
+            <li class="p-1">Cookie Preferences</li>
+            <li class="p-1">Contact Us</li>
+            <li class="p-1">Legal Notices</li>
+          </ul>
+        </div>
+        <div class="position-relative align-items-center">
+          <select name="lang" class="footer-lang p-2 d-flex" id="language-select">  
+            <option name="English">English</option>
+            <!-- icon not working -->
+              <option name="English">Hindi</option>
+          </select>
+        </div>
+        <span class="mt-4">Netflix India</span>
+      </div>  
     </footer>
 </body>
 </html>
