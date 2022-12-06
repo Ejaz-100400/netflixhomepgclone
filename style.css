@@ -18,6 +18,12 @@ header{
 option{
     background-color: silver;
 }
+.globe{
+    left:65px;
+}
+.header-lang{
+padding:10px 25px;
+}
 .sign-in,.sign-in:hover{
     background-color: #E50914;
     color:white;
@@ -93,6 +99,13 @@ option{
         margin-top:25px;
         width:40%;
         padding:10px 15px;
+    }
+    .header-lang{
+        padding:5px 20px;
+        text-align: center;
+        }
+    .globe{
+        left:36px;
     }
 }
 .video-container{
@@ -303,9 +316,28 @@ video{
     font-size:18px;
     background-color: black;
     color:#73716F;
+    width:14%;
 }
 .footer-lang>option{
     background-color: black;
+   
+}
+#language-select-header::before{
+    content:"\f0ac";
+    font-family: "Font Awesome 5 free";
+    font-size:20px;
+    position: relative;
+}
+
+#language-select:before{
+    content:"\f0ac";
+    font-family: "Font Awesome 5 free";
+    font-size:20px;
+    width:100%;
+    position: relative;
+    top:47px;
+    left:10px;
+    color:#73716F;;
 }
 @media(max-width:1197px){
     .footer{
@@ -333,5 +365,8 @@ video{
     .footer-section{
         padding-top:40px;
         padding-left:20px;
+    }
+    .footer-lang{
+        width:35%;
     }
 }

@@ -23,12 +23,21 @@
             </a>
         </div>
         <div class="lang-sign-in d-flex position-relative align-items-center">
-            <select name="lang" class="p-2  text-light" id="language-select">
-                <option name="English">English<i class="bi bi-globe"></i></option>
+          <div class="position-relative globe">
+            <i class="fa-solid fa-globe text-light"></i>
+          </div>
+            <select name="lang" class="header-lang text-light text-center">
+                <option name="English">English</option>
                 <option name="English">Hindi</option>
             </select>
             <input type="button" value="Sign In" class="btn sign-in">
         </div>
+        <!-- <div class="" id="language-select-header">
+          <select name="lang" class="" > 
+            <option name="English">English</option>
+            <option name="Hindi">Hindi</option>
+          </select>
+        </div> -->
     </header>
     <!-- MAIN HOME PG -->
     <main class="main-home-pg d-grid p-5">
@@ -253,12 +262,20 @@
           </ul>
         </div>
         <div class="position-relative align-items-center">
-          <select name="lang" class="footer-lang p-2 d-flex" id="language-select">  
-            <option name="English">English</option>
+         <!-- <span> <i class="fa-solid fa-globe"></i> </span> -->
+          <!-- <span><select name="lang" class="footer-lang p-2 d-flex" id="language-select"> 
+            <option name="English">English</option> -->
             <!-- icon not working -->
-              <option name="English">Hindi</option>
+              <!-- <option name="English">Hindi</option>
+          </select></span> -->
+        </div>
+        <div class="" id="language-select">
+          <select name="lang" class="footer-lang col-2-sm p-2 d-flex" > 
+            <option name="English">English</option>
+            <option name="Hindi">Hindi</option>
           </select>
         </div>
+        
         <span class="mt-4">Netflix India</span>
       </div>  
     </footer>
