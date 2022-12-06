@@ -53,6 +53,7 @@ option{
     border:none;
     padding:17px;
     width:25%;
+    font-size:19px;
 } 
 .getstarted:hover{
     background-color: #E50914;
@@ -95,7 +96,7 @@ option{
     }
 }
 .video-container{
-    min-height:50vh;
+    min-height:60vh;
     background-color: black;
     place-items: center;
 }
@@ -155,8 +156,12 @@ video{
     padding:20px 180px;
     font-size:25px;
 }
-.accrordion-item{
+.accordion-item{
     margin-top: 10px;
+}
+.accordion-item{
+    border:1px solid #222222;
+    background-color:#222222;
 }
 .accordion-button,.accordion-collapse{
     background-color: #222222;
@@ -220,10 +225,10 @@ video{
         min-height:40vh;
     }
     .content-title{
-        font-size:27px;
+        font-size:30px;
     }
     .content-par{
-        font-size: 19px;
+        font-size: 22px;
     }
     .tvimg{
         width:40%;
@@ -249,10 +254,11 @@ video{
     }
     .accordion{
         padding:0px;
+       
     }
     .accordion-button{
         font-size:18px;
-        padding:10px;
+        padding:24px;
     }
     .accordion-collapse{
         font-size: 16px;
@@ -279,6 +285,7 @@ video{
     width:1090px;
     left:0px;
     font-size:14px;
+    font-weight:600;
     color:#73716F;
 }
 .footer-sec-part{
