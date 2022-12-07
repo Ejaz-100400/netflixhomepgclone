@@ -3,6 +3,7 @@
     margin:0;
     box-sizing: border-box;
 }
+/* header styles */
 header{
     z-index:4;
 }
@@ -28,6 +29,8 @@ padding:10px 25px;
     background-color: #E50914;
     color:white;
 }
+
+/* main section styles */
 .main-home-pg{
     min-height:100vh;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.884),rgba(8, 8, 8, 0.559),rgba(0, 0, 0, 0.82)),url('/img/homepg.png');
@@ -108,6 +111,7 @@ padding:10px 25px;
         left:36px;
     }
 }
+/* video section */
 .video-container{
     min-height:60vh;
     background-color: black;
@@ -156,6 +160,7 @@ video{
     gap:25px;
 
 }
+/* freq ques style */
 .frequent-ques{
     min-height:100vh;
     background-color: black;
@@ -286,7 +291,7 @@ video{
         padding-top:20px;
     }
 }
-
+/* footer styles */
 .footer-section{
     background-color: black;
     padding-top:100px;
